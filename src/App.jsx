@@ -123,8 +123,8 @@ const App = () => {
       }
       dataFilter={{category: categories, glass: glasses,}}></NavBar>
        <Hero CocktailData={loadedCocktails.slice(0,20)}></Hero>
-     {favouriteCocktails.length!=0 && <Products Coctaildata={favouriteCocktails} favFun={addOrRemoveToFavourite} headText={"Favourite Products"}  defaultIsFav={true}></Products> }
-      <Products Coctaildata={displayedCoctails} favFun={addOrRemoveToFavourite} headText={"All Products"} defaultIsFav={false} ></Products>
+     {favouriteCocktails.length!=0 && <Products Coctaildata={favouriteCocktails} favFun={addOrRemoveToFavourite} headText={"Favourite Cocktails"}  defaultIsFav={true}></Products> }
+      <Products Coctaildata={displayedCoctails} favFun={addOrRemoveToFavourite} headText={"All Cocktails"} defaultIsFav={false} ></Products>
       {/* <HighlightedProductList></HighlightedProductList>  */}
       <Footer></Footer>
     </div>
