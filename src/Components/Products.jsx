@@ -11,14 +11,14 @@ const Products = ({ Coctaildata, headText, favFun, defaultIsFav }) => {
   return (
     <div className='mt-14 mb-12 '>
       <div>
-        {/* Header */}
+      
         <div className='text-center mb-10 max-w-[600px] mx-auto'>
           <p data-aos="fade-up" className='text-5xl mb-3'>{ headText}</p>
           
         </div>
       </div>
       
-      {/* Body - lista produktów */}
+    
       <div className='flex flex-wrap justify-center gap-10 place-items-center'>
         
      {Coctaildata.slice(0, visibleCount).map((data) => (

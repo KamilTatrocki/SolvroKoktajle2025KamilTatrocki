@@ -61,7 +61,7 @@ export default function CocktailElement({ cocktail, fun, defaultIsFav }) {
         </div>
       </article>
 
-      {/* Modal */}
+     
       {isModalOpen && (
         <Modal open={isModalOpen}>
           <div className="bg-[var(--color5)] rounded-md  p-4 w-[80%] max-w-[80%] max-h-[80%] text-white">
