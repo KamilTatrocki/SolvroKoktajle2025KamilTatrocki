@@ -48,7 +48,6 @@ export default function CocktailElement({ cocktail, fun, defaultIsFav }) {
               show instruction
             </button>
 
-            {/* Ulubione */}
             <button
               className="text-white text-base cursor-pointer bg-[#80B3FF] border border-[#80B3FF] rounded-lg px-4 py-2"
               onClick={() => {
@@ -65,7 +64,7 @@ export default function CocktailElement({ cocktail, fun, defaultIsFav }) {
       {/* Modal */}
       {isModalOpen && (
         <Modal open={isModalOpen}>
-          <div className="bg-[#274276] rounded-md shadow-lg p-4 w-[80%] max-w-[40rem] max-h-[80%] text-white">
+          <div className="bg-[var(--color5)] rounded-md  p-4 w-[80%] max-w-[80%] max-h-[80%] text-white">
             <h2 className="m-0 text-2xl font-bold">{cocktail.name}</h2>
             <h3 className="text-xl mt-2">ingredients:</h3>
             <ul className="list-disc list-inside">

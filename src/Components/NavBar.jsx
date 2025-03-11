@@ -30,7 +30,7 @@ const NavBar = ({ func, dataFilter }) => {
 
   return (
     <div
-      className="navbar shadow-md dark:bg-[var(--color6)] dark:text-amber-50 duration-500 z-40 sm:sticky top-0"
+      className="navbar shadow-md bg-[var(--color6)] text-amber-50 duration-500 z-40 sm:sticky top-0"
     >
       <div className="py-2">
         <div className="container mx-auto px-4 flex justify-between items-center">
