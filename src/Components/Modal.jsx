@@ -33,8 +33,9 @@ export default function Modal({ children, open, className = '' }) {
       ref={dialog}
       className={`
         bg-[#274276] text-white rounded-md border-none shadow-[0_2px_8px_rgba(0,0,0,0.6)]
-        p-4 w-[80%] max-w-[40rem] max-h-[80%]
+        p-4 sm:w-[80%] sm:max-w-[40rem] sm:max-h-[80%]
         animate-[fade-slide-up_0.3s_ease-out_forwards]
+        max-sm:w-full max-sm:h-full
         [&::backdrop]:bg-[rgba(0,0,0,0.8)]
        
         fixed

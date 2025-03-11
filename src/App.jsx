@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from './Components/NavBar'
-import Hero from './Components/Hero'
+import Main from './Components/Main'
 import Products from './Components/Products'
 import HighlightedProductList from './Components/HighlightedProductList'
 import Footer from './Components/Footer'
@@ -122,7 +122,7 @@ const App = () => {
         
       }
       dataFilter={{category: categories, glass: glasses,}}></NavBar>
-       <Hero CocktailData={loadedCocktails.slice(0,20)}></Hero>
+       <Main CocktailData={loadedCocktails.slice(0,20)}></Main>
      {favouriteCocktails.length!=0 && <Products Coctaildata={favouriteCocktails} favFun={addOrRemoveToFavourite} headText={"Favourite Cocktails"}  defaultIsFav={true}></Products> }
       <Products Coctaildata={displayedCoctails} favFun={addOrRemoveToFavourite} headText={"All Cocktails"} defaultIsFav={false} ></Products>
       {/* <HighlightedProductList></HighlightedProductList>  */}
