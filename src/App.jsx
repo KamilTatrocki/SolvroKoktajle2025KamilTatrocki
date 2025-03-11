@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from './Components/NavBar'
 import Main from './Components/Main'
 import Products from './Components/Products'
-import HighlightedProductList from './Components/HighlightedProductList'
+
 import Footer from './Components/Footer'
 import Aos from 'aos'
 import { useState, useEffect } from "react"

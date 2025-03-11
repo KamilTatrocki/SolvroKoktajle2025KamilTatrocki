@@ -30,7 +30,7 @@ const NavBar = ({ func, dataFilter }) => {
 
   return (
     <div
-      className="navbar shadow-md bg-[var(--color6)] text-amber-50 duration-500 z-40 sm:sticky top-0"
+      className="navbar shadow-md bg-[var(--color6)] text-[var(--color2)] duration-500 z-40 sm:sticky top-0"
     >
       <div className="py-2">
         <div className="container mx-auto px-4 flex justify-between items-center">
@@ -81,7 +81,27 @@ const NavBar = ({ func, dataFilter }) => {
               />
             </div>
 
-   
+            <button className="
+                bg-[var(--color4)]
+                hover:bg-[var(--color3)]
+                transition-colors 
+                duration-300 
+                cursor-pointer 
+                py-1 
+                px-4 
+                rounded-full 
+                flex 
+                items-center 
+                gap-2 
+                shadow-sm
+              "
+              onClick={ ()=> {
+                inputRef.current.value = '';
+                func.all() }}>  
+              <span className="hidden sm:inline-block text-white font-bold">
+                All
+              </span>
+            </button>
             <button
               onClick={openModal}
               className="
