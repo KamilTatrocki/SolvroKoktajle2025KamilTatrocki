@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white text-center py-4">
       <div className="container mx-auto">
-        <p className="text-sm">&copy; {new Date().getFullYear()} Solvro. Wszelkie prawa zastrzeżone.</p>
+        <p className="text-sm">&copy; {new Date().getFullYear()}  Wszelkie prawa zastrzeżone.</p>
         <nav className="mt-2">
           <ul className="flex justify-center space-x-4">
             <li>
