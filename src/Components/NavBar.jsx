@@ -40,8 +40,8 @@ const NavBar = ({ func, dataFilter }) => {
               href="#"
               className="font-bold text-2xl sm:text-3xl flex gap-2 items-center"
             >
-              <img src={Logo} alt="Logo" className="w-10 uppercase" />
-              SolvroCocktails
+              
+              Cocktails
             </a>
           </div>
 
